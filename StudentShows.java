@@ -53,4 +53,15 @@ public class StudentShows
         }
     }
     
+    /**
+     * other hashmap metjods
+     */
+    public void other() {
+        // remove an item
+        studentShows.put("Mr Ny", "Yellow Jacket");
+        UI.println(studentShows.get("Mr Ny"));
+        studentShows.remove("Mr Ny");
+        UI.println(studentShows.get("Mr Ny"));
+    }
+    
 }
